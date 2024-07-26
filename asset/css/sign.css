@@ -1,0 +1,66 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-image: url("../img/img-local/sample.jpg");
+    background-color: white;
+}
+
+.welcome {
+    background: #8cd91a;
+    background: -webkit-linear-gradient(to right, #017a11, #8cd91a);
+    background: linear-gradient(to right, #017a11, #8cd91a);
+    color: white;
+    width: 100%;
+    padding: 20px 0px;
+    margin-bottom: 5px;
+}
+
+.masukan {
+    border-radius: 50px;
+    background: #8cd91a;
+    background: -webkit-linear-gradient(to right, #017a11, #8cd91a);
+    background: linear-gradient(to right, #017a11, #8cd91a);
+    color: white;
+}
+
+.masukan .form-control {
+    border-radius: 50px;
+}
+
+.form-signin {
+    background-color: white;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tengah {
+    padding: 10px 30px;
+}
+
+.bawah {
+    background: #8cd91a;
+    background: -webkit-linear-gradient(to right, #017a11, #8cd91a);
+    background: linear-gradient(to right, #017a11, #8cd91a);
+    color: white;
+    width: 100%;
+    padding: 1px 0px;
+}
+
+.form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
